@@ -1,0 +1,665 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*
+
+ font-family: "Rubik", sans-serif;
+
+*/
+
+
+/*General style*/
+
+
+
+
+img{
+    max-width: 100%
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+
+    background-color:rgb(247,248,251);
+
+}
+
+
+
+.btn{
+
+    color:white;
+    background-color: #1FDB84;
+    box-shadow: 0 8px 34px 0 rgba(31,219,132,0.6);
+    border-radius: 6px;
+
+
+}
+
+.btn:hover{
+    color:#031D5B !important;
+}
+
+
+
+
+/*navbar and header*/
+
+header{
+    background-color:#313A5A;
+
+}
+
+.navbar{
+
+    padding-top:34px;
+    padding-bottom:34px;
+    padding-left:0;
+    padding-right:0;
+}
+
+.navbar-nav{
+    padding-top:20px;
+}
+
+.nav-item .btn{
+    padding:3px 28px;
+
+    box-shadow: 0 8px 10px 0 rgba(31,219,132,0.6);
+
+    /*ovde sam pravio shadow ne postujuci do kraja ono sto je preporuceno u figmi
+      jer mi se shadow onda presijava i vidi se preko telefona ispod i prelazi malo
+    levo*/
+}
+
+.fa-solid{
+
+    color:white !important;
+
+}
+
+.nav-item{
+    text-align: center;
+    border-bottom:2px solid white;
+}
+
+.nav-item:last-of-type{
+    border-bottom:0px solid white;
+    text-align:right;
+
+
+
+}
+
+
+
+.nav-item:nth-child(5){
+    margin-bottom:20px;
+
+}
+
+
+
+
+.nav-link{
+    color:#FFFFFF ;
+
+
+}
+
+.nav-link:hover,
+.nav-link.active{
+
+    color:#1FDB84;
+}
+
+/*MAIN*/
+
+/*benefit article 1*/
+
+.benefit{
+    background-color:#313A5A;
+}
+
+.benefit h1,
+.benefit p,
+.benefit  a{
+
+    color:white;
+}
+
+
+.benefit figure{
+
+    padding-top:5px;
+    margin-bottom: 55px;
+}
+
+
+
+
+
+.benefit-article h1{
+
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: 57px;
+    margin-bottom:40px;
+}
+
+.benefit-article p{
+    margin-bottom:35px;
+
+}
+
+.benefit-article a{
+
+
+    margin-bottom:55px;
+    padding:15px 38px;
+    font-size:16px;
+}
+
+
+
+.benefit-article .btn{
+    padding:10px 28px;
+    box-shadow: 0 -1px 10px 0 rgba(31,219,132,0.6);
+    /*ovde sam pravio shadow ne postujuci do kraja ono sto je preporuceno u figmi
+    jer mi se shadow onda presijava i vidi se preko ove ruke sto drzi telefon iz
+    narednog slajda. Tako sam na svoju ruku dosta pravio ove shadowe*/
+
+}
+
+
+.container .owl-theme .owl-dots .owl-dot:nth-child(2){
+
+    margin-left: 16px;
+    margin-right:16px;
+}
+
+.container .owl-theme .owl-dots .owl-dot span{
+    margin:0;
+    padding:0;
+    background:transparent;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    border: 1px solid #1FDB84;
+
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+
+    background:#1FDB84 !important;
+}
+.benefit .owl-dots{
+    position:absolute;
+    top:1190px;
+    left:113px;
+    display:block;
+    margin-top:-120px !important;
+
+
+}
+
+.benefit .owl-nav{
+    position:relative;
+
+}
+
+
+.benefit .owl-prev {
+
+    position:absolute;
+
+    bottom:580px;
+    left:3px;
+
+}
+
+
+.benefit .owl-next{
+    position:absolute;
+    bottom:580px;
+    left:250px;
+    color:black;
+
+}
+
+
+
+
+.benefit  .owl-prev span:hover,
+.benefit .owl-next span:hover{
+    background-color:#1FDB84;
+}
+
+.benefit .owl-theme .owl-nav [class*="owl-"]:hover{
+
+    background-color:transparent;
+}
+
+.benefit .owl-prev span{
+    border:2px solid white;
+    padding:5px;
+    border-radius:50%;
+}
+
+
+.benefit .owl-next span{
+    border:2px solid white;
+    padding:5px;
+    border-radius:50%;
+}
+/*benefit article 2*/
+
+
+.benefit-2{
+
+    margin-left:10px !important;
+    margin-right:10px !important;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    position:relative;
+    z-index:2 !important;
+    margin-top:-20px !important;
+
+}
+
+
+
+
+.benefit-2-item.last-article{/*generalno imam problem sa targetiranjem poslednjeg
+    ,prvog, odd, even preko pseudo klasa, moguce da je nesto do browesra ne znam
+    . Sve sam zivo probao last-of-type, nth-child, nije mi uspelo da targetiram
+    poslednji p pa sam mu pridruzio klasu .last-article.*/
+
+    margin-bottom:89px;
+
+}
+
+
+.benefit-2-item h4{
+    color: #031D5B;
+    text-align:center;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 22px;
+    position:relative;
+    margin-bottom:50px;
+
+}
+
+.benefit-2-item p{
+    color: #5B6C94;
+    text-align:center;
+    font-size: 16px ;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-bottom:0 !important;
+
+
+}
+
+
+
+.benefit-2-item h4:before{
+    content: '';
+    position:absolute;
+    top:50px;
+    left:93px;
+    background-color:#1FDB84;
+    padding-left:10px;
+    width:30% ;
+    opacity:1;
+    padding:2px 0;
+
+}
+
+
+.benefit-2-item figure{
+    text-align: center;
+    margin-bottom:26px;
+
+
+}
+
+
+
+/*pricing*/
+
+
+.pricing .container > h1{
+    font-weight: 500;
+}
+
+.pricing h1{
+    color: #32325C;
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 59px;
+    margin-bottom:60px;
+    padding-top:89px;
+
+
+}
+
+.pricing .row{
+
+    margin-bottom:116px;
+}
+
+
+.pricing-item{
+
+    padding-top:57px;
+}
+
+.pricing-item:hover
+{
+    background-color: #FFFFFF;
+    box-shadow: 0 7px 24px 0 rgba(83,83,83,0.1);
+    border-top:2px solid #0A8AFF;
+
+}
+
+.pricing-item .h3{
+    color: #32325C !important;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.27px;
+    line-height: 32px;
+    margin-bottom:31px;
+}
+
+.pricing-item h1{
+    color: #1FDB84;
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 64px;
+    margin-bottom:13px;
+    padding-top:0;
+
+}
+
+
+
+.pricing-item .p2{/*ista prica ovde za targetiranje preko pseudo klasa, zbog necega
+    mi to ne radi a mozda i ja nesto radim pogresno.*/
+
+    margin-bottom:80px;
+}
+
+
+.pricing-item p:nth-child(7){/*ovo veze nema sto pise nth-child-7 ali mi radi posao 
+    za oba ova paragrafa*/
+    margin-bottom:60px;
+
+}
+
+.pricing-item a{
+    margin-bottom:57px;
+}
+
+.pricing-item a:hover{
+    color:black !important;
+}
+
+.pricing-item .btn{
+    padding:10px 28px;
+}
+
+/*testimonials*/
+
+
+/*U ovoj sekciji sam pokušao na svaki način koristeći pseudo-klasu
+:nth-child(even) / :nth-child(odd) kako bih manipulisao pozadinom članaka
+(između ostalog), ali nisam uspeo. Zato sam dodao svakom artiklu koji je neparan klasu
+.testimonial-item-odd, a svakom paranom .testimonial-item-even.*/
+
+
+/*Primetio sam da ceo body ima background-color Zato sam dodao background-color body-ju 
+ i background-color ovom article-u. Nisam dodao linear-gradient
+pozadini ovog diva sa klasom .h2-background, jer bi granica i razlika između 
+pozadine slike i pozadine cele sekcije bila veoma primetna.*/
+
+#testimonials{
+    background: linear-gradient(180deg, #F8F9FC 0%, #DADADA 100%);
+}
+
+.testimonials .h2-background{
+    width:290px;
+    height:250px;
+    background-size: 300px 250px;
+
+
+}
+
+
+
+.testimonials article{
+    padding:40px 40px;
+
+}
+
+.testimonials article.testimonial-item-odd{
+
+    padding:54px 40px;
+}
+
+
+.testimonials .container .h2-background h2{
+
+    padding:50px 20px 70px 20px;
+}
+
+
+
+.testimonials .container ul{
+    margin-top:-40px;
+}
+
+
+
+.testimonial-item-odd p{
+    color: #FFFFFF;
+
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.testimonial-item-even p{
+    color: #5B6C94;
+
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+
+}
+
+.testimonial-item-odd {
+    border-radius: 6px;
+    z-index:1;
+    margin-bottom:100px;
+    background-color: #1FDB84;
+    box-shadow: 0px 8px 12px 0 rgba(31,219,132,0.5);
+
+}
+
+.testimonial-item-even{
+    border-radius: 6px;
+    margin-bottom:100px;
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 0px 8px 12px 0 rgba(121,121,121,0.3);
+
+}
+.testimonials .testimonials-slider li article p:first-of-type{
+    margin-bottom:80px;
+}
+
+
+.testimonial-item-odd img,
+.testimonial-item-even img{
+
+    width:63px !important;
+    height:40px !important;
+}
+
+.testimonials .owl-dots{
+
+    padding-bottom:112px;
+}
+
+.testimonials .owl-stage-outer{
+
+    position: relative;
+}
+
+.testimonials .owl-nav{
+    position:absolute;
+    left:37px;
+    bottom:45px;
+
+
+}
+
+.testimonials .fa-arrow-left{
+
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right:70px;
+}
+
+.testimonials .owl-prev{
+    background-color:transparent !important;
+}
+.testimonials .fa-arrow-left:hover{
+    background-color: #1FDB84;
+}
+
+.testimonials .fa-arrow-right:hover{
+    background-color: #1FDB84;
+}
+
+
+.testimonials .fa-arrow-right{
+
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left:70px;
+}
+
+.testimonials .owl-next{
+    background-color:transparent !important;
+}
+
+.testimonials .fa-arrow-right:hover{
+    background-color: #1FDB84;
+}
+
+/*gallery*/
+
+.gallery .container-fluid{
+    margin-left:0 !important;
+    margin-right:0 !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+
+#gallery,
+#gallery .container-fluid .row div{
+    background-color: rgb(218, 218, 218);
+
+}
+
+.gallery  .container-fluid .row div a{
+    display: inline-block;
+    position: relative;
+
+}
+
+
+
+.gallery  .container-fluid .row div a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 219, 132, 0.35);
+    z-index: 1;
+}
+
+.gallery:hover {
+    cursor: url('img/cursor-pointer-plus.png'), auto;
+
+    /*Ovde mi ne se ne menja kursor na sliku koja se nalazi u pathu. Sve sam pokusao
+    ali mi ne radi, dok recimo ako stavim courser:text, ili bilo sta 
+    drugo menja se kada hoverujem preko galerije*/
+
+}
+
+
+/*clients*/
+
+
+.clients {
+
+    margin-bottom:128px;
+}
+
+
+
+.clients .container p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    text-align: center;
+    padding-top:71px;
+    margin-bottom:48px;
+}
+
+
+
+/*footer*/
+
+footer .container ul{
+
+    margin-bottom:37px;
+}
+
+footer .container ul li a{
+
+
+    text-decoration: none;
+    color: #5B6C94;
+
+
+    letter-spacing: 0;
+    line-height: 32px;
+
+}
+
+footer .container ul li a:hover{
+
+    color:black;
+}
+
+footer .container p{
+    color: #5B6C94;
+    line-height: 32px;
+    letter-spacing: 0;
+
+}

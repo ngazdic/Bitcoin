@@ -1,0 +1,561 @@
+
+
+
+@media (min-width: 576px){
+    /*main*/
+    /*benefit*/
+
+    .benefit figure img{
+
+        max-width: 345px;
+        max-height: 807px;
+    }
+
+
+
+    .benefit .owl-dots{
+        position:absolute;
+        top:1150px;
+        left:220px;
+        display:block;
+        margin-top:-120px !important;
+
+
+    }
+
+    /*benefit-2*/
+
+    .benefit-2{
+
+        position:relative;
+        z-index:2 !important;
+        margin-top:-20px !important;
+
+    }
+
+
+
+
+    .benefit-2-item h4:before{
+        content: '';
+        position:absolute;
+        top:50px;
+        left:180px;
+        background-color:#1FDB84;
+
+        padding-left:10px;
+        width:30% ;
+        opacity:1;
+        padding:2px 0;
+
+
+
+    }
+
+    /*testimonials*/
+
+
+    .testimonials .container ul{
+        margin-top:-80px;
+    }
+
+    .testimonials .h2-background{
+        width:325px;
+        height:350px;
+        background-size: 325px 350px;
+    }
+
+    .testimonials .container .h2-background h2{
+
+        padding:70px 24px 117px 16px;
+    }
+
+    .testimonials article.testimonial-item-odd{
+
+        padding:40px 40px;
+    }
+}
+
+@media (min-width: 772px){
+    /*navbar i header*/
+
+
+    .navbar-nav{
+        padding-top:5px;
+    }
+
+    .nav-item{
+        margin-left:10px;
+        border-bottom:none;
+        position:relative;
+    }
+
+    .nav-item:before{
+        content: '';
+        position:absolute;
+        top:40px;
+        left:0;
+        background-color:#1FDB84;
+        ;
+        padding-left:10px;
+        width:0% ;
+        opacity:0;
+        padding:1px 0;
+
+        transition:all 0.3s ease-in;
+
+    }
+
+    .nav-item:hover:before{
+        opacity:1;
+        width:100%
+
+    }
+
+
+    .nav-item:nth-child(5){
+        margin-bottom:0px;
+
+
+    }
+
+    .nav-item:nth-child(6):hover:before{
+        opacity:0;
+    }
+
+    /*main*/
+    /*benefit*/
+
+
+    .benefit-article{
+        padding-top:115px !important;
+    }
+
+
+
+    .benefit .owl-dots{
+        position:absolute;
+        top:690px;
+        left:312px;
+        display:block;
+        margin-top:-120px !important;
+
+
+    }
+
+    /*benefit-2*/
+
+    .benefit-2{
+
+        position:relative;
+        z-index:2 !important;
+        margin-top:-70px !important;
+
+    }
+    .benefit-2-item {
+        transition: transform 0.7s;
+    }
+
+    .benefit-2-item:hover {
+        transform: scale(1.1);
+    }
+
+
+
+
+    article.benefit-2-item{
+        padding-top:66px;
+
+
+
+    }
+
+    .first-h4{
+
+        margin-bottom:28px !important;
+    }
+
+    .benefit-2-item figure{
+        text-align: center;
+        padding-top:0 ;
+    }
+
+
+    .benefit-2-item h4:before{
+        content: '';
+        position:absolute;
+        top:50px;
+        left:70px;
+        background-color:#1FDB84;
+
+        padding-left:10px;
+        width:30% ;
+        opacity:1;
+        padding:2px 0;
+
+
+
+    }
+
+    /*pricing*/
+
+    .pricing-item .p{
+
+        margin-bottom:140px;
+    }
+
+    .pricing-item .p2{
+
+        margin-bottom:100px;
+    }
+
+    /*testimonials*/
+
+    .testimonials .h2-background h2{
+        color: #031D5B;
+
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 48px;
+
+
+    }
+
+
+
+
+    .testimonials .container ul{
+        margin-top:-80px;
+    }
+    .testimonials .container .h2-background h2 {
+        padding: 70px 24px 177px 16px;
+    }
+
+    .testimonial-item-odd {
+        border-radius: 6px;
+        z-index:1;
+        margin-bottom:100px;
+        background-color: #1FDB84;
+        box-shadow: 12px 12px 40px 0 rgba(31,219,132,0.5);
+    }
+
+    .testimonial-item-even{
+        border-radius: 6px;
+        margin-bottom:100px;
+        background-color: rgba(255,255,255,0.95);
+        box-shadow: 12px 12px 40px 0 rgba(121,121,121,0.3);
+
+    }
+
+
+    .testimonials article {
+        padding: 40px 40px;
+    }
+
+    .testimonial-item-even,
+    .testimonial-item-odd{
+        border-radius: 6px;
+        margin-bottom: 59px;
+
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top:0;
+        padding-bottom:100px;
+    }
+
+}
+
+
+/*clients*/
+
+.clients figure img:hover{
+
+    transition:all 0.2s ease-in;
+    margin-left:7px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+    /*navbar i header*/
+    .nav-item{
+        margin-left:28px;
+    }
+
+    .nav-item .btn{
+
+        color:white;
+        background-color: #1FDB84;
+        box-shadow: 0 8px 22px 0 rgba(31,219,132,0.6);
+        border-radius: 6px;
+
+        margin-top:2px;
+    }
+
+
+    /*main*/
+    /*benefit section*/
+
+
+    .benefit-article h1{
+
+        font-size: 48px;
+        letter-spacing: 0;
+        line-height: 57px;
+        margin-bottom:40px;
+    }
+
+    .benefit-article p{
+        margin-bottom:45px;
+
+    }
+
+    .benefit-article a{
+
+
+
+        margin-bottom:55px;
+        padding:18px 48px;
+        font-size:18px;
+
+
+        margin-bottom:55px;
+    }
+    .benefit .owl-dots{
+        position:absolute;
+        top:645px;
+        left:430px;
+        display:block;
+        margin-top:-120px !important;
+
+
+    }
+
+    .benefit-article .btn{
+        padding:18px 48px;
+        box-shadow: 0 -4px 10px 0 rgba(31,219,132,0.6);
+
+    }
+
+
+    /*benefit 2 section*/
+
+    .benefit-2{
+
+        position:relative;
+        z-index:2 !important;
+        margin-top:-110px !important;
+
+    }
+
+    .benefit-2 h4:before{
+        content: '';
+        position:absolute;
+        top:50px;
+        left:100px;
+        background-color:#1FDB84;
+
+        padding-left:10px;
+        width:30% ;
+        opacity:1;
+        padding:2px 0;
+
+
+
+    }
+
+
+
+
+
+    .first-h4{
+
+        margin-bottom:50px !important;
+    }
+
+    .benefit-2 figure{
+        text-align: center;
+
+    }
+
+    .benefit-2 h4{
+
+        text-align:center;
+
+
+    }
+
+    .benefit-2 p{
+
+        text-align:center;
+
+
+    }
+
+    /*pricing*/
+
+    .pricing h1{
+
+        font-size: 40px;
+
+
+
+    }
+
+    .pricing-item h1{
+
+        font-size: 72px;
+    }
+
+    .pricing {
+        font-size: 24px;
+    }
+
+    .pricing p{
+
+        font-size: 16px;
+    }
+
+    .pricing-item .btn{
+        padding:20px 48px;
+        letter-spacing: 1px;
+        line-height: 19px;
+    }
+
+
+    /*testimonials*/
+    .testimonials article{
+        padding:80px 78px 63px 64px ;
+
+    }
+
+    .testimonials article.testimonial-item-odd{
+
+        padding:85px 40px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1200px){
+    /*navbar i header*/
+    .nav-item{
+        margin-left:30px;
+    }
+
+
+    /*main*/
+    /*benfetis*/
+
+
+    .benefit .owl-dots{
+        position:absolute;
+        top:625px;
+        left:500px;
+        display:block;
+        margin-top:-120px !important;
+
+
+    }
+
+    /*main*/
+    /*benfit 2*/
+
+
+
+    .benefit-2{
+
+        position:relative;
+        z-index:2 !important;
+        margin-top:-110px !important;
+
+    }
+
+    .benefit-2{
+        padding-top:0px;
+    }
+
+    .benefit-2  h4{
+        text-align:left ;
+
+    }
+
+    .benefit-2 p{
+        text-align:left ;
+        margin-bottom:88px !important;
+    }
+
+    .benefit-2 figure {
+        text-align:left;
+    }
+
+    .benefit-2 h4:before{
+        content: '';
+        position:absolute;
+        top:50px;
+        left:0;
+        background-color:#1FDB84;
+
+        padding-left:10px;
+        width:30% ;
+        opacity:1;
+        padding:2px 0;
+
+
+
+    }
+
+    /*testimonials*/
+
+    .testimonials .container ul{
+        margin-top:-80px;
+    }
+    .testimonials .container .h2-background h2 {
+        padding: 70px 24px 187px 16px;
+        font-size: 35px;
+
+    }
+
+    .testimonials .container p{
+        margin-bottom:0;
+    }
+
+
+    .testimonials .testimonials-slider li article p:first-of-type{
+
+        margin-bottom:114px;
+    }
+
+    .testimonials .owl-dots{
+
+        padding-bottom:97px;
+    }
+
+
+}
+
+
+
+@media (min-width: 1400px){
+    /*main*/
+    /*benefit-2*/
+    .benefit-2 {
+        margin-left:92px !important;
+        margin-right:92px!important;
+
+    }
+
+
+
+
+
+}
